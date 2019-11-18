@@ -121,10 +121,6 @@ Storage are sponsored by `AppsCode <https://appscode.com>`__!
 
 .. |Documentation| image:: https://readthedocs.org/projects/restic/badge/?version=latest
    :target: https://restic.readthedocs.io/en/latest/?badge=latest
-.. |Build Status| image:: https://travis-ci.com/restic/restic.svg?branch=master
-   :target: https://travis-ci.com/restic/restic
-.. |Build status| image:: https://ci.appveyor.com/api/projects/status/nuy4lfbgfbytw92q/branch/master?svg=true
-   :target: https://ci.appveyor.com/project/fd0/restic/branch/master
 .. |Report Card| image:: https://goreportcard.com/badge/github.com/restic/restic
    :target: https://goreportcard.com/report/github.com/restic/restic
 .. |Say Thanks| image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
