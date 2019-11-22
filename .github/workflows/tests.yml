@@ -13,7 +13,7 @@ jobs:
           - ubuntu-latest
           - windows-latest
           - macOS-latest
-    runs-on: ${{ matrx.OS }}
+    runs-on: ${{ matrix.OS }}
     steps:
 
       - name: Set up Go ${{ matrix.go-version }}
