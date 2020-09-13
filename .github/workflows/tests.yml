@@ -36,11 +36,8 @@ jobs:
           export GOBIN=$HOME/bin
 
           # build Go tools
-          echo "get rest-server"
-          go get github.com/restic/rest-server
-          echo "get calens"
+          go get github.com/restic/rest-server/...
           go get github.com/restic/calens
-          echo "get gox"
           go get github.com/mitchellh/gox
 
           # minio
