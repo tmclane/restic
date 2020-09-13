@@ -36,12 +36,15 @@ jobs:
           export GOBIN=$HOME/bin
 
           # build Go tools
+          echo "get rest-server"
           go get github.com/restic/rest-server
+          echo "get calens"
           go get github.com/restic/calens
+          echo "get gox"
           go get github.com/mitchellh/gox
 
           # minio
-          wget -O $GOBIN/minio https://dl.minio.io/server/minio/release/linux-amd64/minio
+          wget -q -O $GOBIN/minio https://dl.minio.io/server/minio/release/linux-amd64/minio
           chmod 755 $GOBIN/minio
 
       - name: Check out code
