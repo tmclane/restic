@@ -32,4 +32,7 @@ jobs:
       - name: Run golang-ci
         run: |
           export PATH=$HOME/bin:$PATH
-          golangci-lint run --enable goimports,govet,misspell,stylecheck
+          # golangci-lint run --enable goimports,govet,misspell,stylecheck
+          #
+          # make it simpler for now:
+          golangci-lint run --disable unused,errcheck,ineffassign,staticcheck,gosimple
