@@ -1,5 +1,15 @@
 name: Build and tests
-on: [push, pull_request]
+on:
+  # run tests on push to master, but not when other branches are pushed to
+  push:
+    branches:
+      - master
+
+  # run tests for pull requests to master
+  pull_request:
+    branches:
+      - master
+
 jobs:
   build:
     name: Build and Test on Linux
