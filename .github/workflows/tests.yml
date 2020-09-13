@@ -48,11 +48,11 @@ jobs:
         uses: actions/checkout@v1
 
       # debug with tmate
-      - name: Run apt-get for tmate action
-        run: sudo apt-get update
+      # - name: Run apt-get for tmate action
+      #   run: sudo apt-get update
 
-      - name: Debugging with tmate
-        uses: mxschmitt/action-tmate@v1.0.1
+      # - name: Debugging with tmate
+      #   uses: mxschmitt/action-tmate@v1.0.1
 
       - name: Build
         run: |
