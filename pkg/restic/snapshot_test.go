@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func TestNewSnapshot(t *testing.T) {

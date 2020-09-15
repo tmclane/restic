@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/restic/restic/pkg/errors"
 )
 
 // StartForeground runs cmd in the foreground, by temporarily switching to the

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/local"
-	"github.com/restic/restic/internal/backend/test"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/backend/local"
+	"github.com/restic/restic/pkg/backend/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func newTestSuite(t testing.TB) *test.Suite {

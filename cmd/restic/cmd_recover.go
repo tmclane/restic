@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
 	"github.com/spf13/cobra"
 )
 

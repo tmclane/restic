@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/checker"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/archiver"
+	"github.com/restic/restic/pkg/checker"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/test"
 )
 
 var checkerTestData = filepath.Join("testdata", "checker-test-repo.tar.gz")

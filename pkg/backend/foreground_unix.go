@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
 )
 
 func tcsetpgrp(fd int, pid int) error {

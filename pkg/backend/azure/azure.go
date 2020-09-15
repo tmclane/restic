@@ -11,10 +11,10 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/storage"
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/backend"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
 )
 
 // Backend stores data on an azure endpoint.

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/restic/restic/internal/archiver"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/ui/termstatus"
+	"github.com/restic/restic/pkg/archiver"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/ui/termstatus"
 )
 
 type counter struct {

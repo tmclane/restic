@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/restic/restic/pkg/errors"
 )
 
 // Semaphore limits access to a restricted resource.

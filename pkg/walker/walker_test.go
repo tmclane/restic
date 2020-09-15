@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/restic"
 )
 
 // TestTree is used to construct a list of trees for testing the walker.

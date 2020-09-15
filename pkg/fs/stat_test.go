@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	restictest "github.com/restic/restic/internal/test"
+	restictest "github.com/restic/restic/pkg/test"
 )
 
 func TestExtendedStat(t *testing.T) {

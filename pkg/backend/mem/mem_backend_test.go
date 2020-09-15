@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
 
-	"github.com/restic/restic/internal/backend/mem"
-	"github.com/restic/restic/internal/backend/test"
+	"github.com/restic/restic/pkg/backend/mem"
+	"github.com/restic/restic/pkg/backend/test"
 )
 
 type memConfig struct {

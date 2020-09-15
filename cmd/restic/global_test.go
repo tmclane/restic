@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func Test_PrintFunctionsRespectsGlobalStdout(t *testing.T) {

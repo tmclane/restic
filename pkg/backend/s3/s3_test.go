@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/backend/s3"
-	"github.com/restic/restic/internal/backend/test"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/backend"
+	"github.com/restic/restic/pkg/backend/s3"
+	"github.com/restic/restic/pkg/backend/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func mkdir(t testing.TB, dir string) {

@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/restic/restic/internal/debug"
+	"github.com/restic/restic/pkg/debug"
 )
 
 // IsProcessBackground reports whether the current process is running in the background.

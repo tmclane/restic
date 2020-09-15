@@ -3,8 +3,8 @@ package restic_test
 import (
 	"testing"
 
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 // TestHardLinks contains various tests for HardlinkIndex.

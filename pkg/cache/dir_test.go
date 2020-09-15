@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 // DefaultDir should honor RESTIC_CACHE_DIR on all platforms.

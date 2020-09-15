@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
 	tomb "gopkg.in/tomb.v2"
 )
 

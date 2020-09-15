@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/test"
 )
 
 // Suite implements a test suite for restic backends.

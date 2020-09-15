@@ -4,11 +4,11 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/rclone"
-	"github.com/restic/restic/internal/backend/test"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/backend/rclone"
+	"github.com/restic/restic/pkg/backend/test"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func newTestSuite(t testing.TB) *test.Suite {

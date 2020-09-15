@@ -8,11 +8,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/filter"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/filter"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/walker"
 )
 
 var cmdFind = &cobra.Command{

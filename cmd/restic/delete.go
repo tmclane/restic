@@ -3,7 +3,7 @@ package main
 import (
 	"golang.org/x/sync/errgroup"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/restic"
 )
 
 // DeleteFiles deletes the given fileList of fileType in parallel

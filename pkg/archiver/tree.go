@@ -3,9 +3,9 @@ package archiver
 import (
 	"fmt"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/fs"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/fs"
 )
 
 // Tree recursively defines how a snapshot should look like when

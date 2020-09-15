@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/cespare/xxhash"
-	"github.com/restic/restic/internal/debug"
+	"github.com/restic/restic/pkg/debug"
 )
 
 // writes blobs to target files.

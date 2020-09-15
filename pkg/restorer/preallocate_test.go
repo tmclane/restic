@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/restic/restic/internal/fs"
-	"github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/fs"
+	"github.com/restic/restic/pkg/test"
 )
 
 func TestPreallocate(t *testing.T) {

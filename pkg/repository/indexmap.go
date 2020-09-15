@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/binary"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/restic"
 
 	"github.com/dchest/siphash"
 )

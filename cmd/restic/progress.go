@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/restic"
 )
 
 // newProgressMax returns a progress that counts blobs.

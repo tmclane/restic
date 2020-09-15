@@ -11,13 +11,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/restic/restic/internal/repository"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/repository"
+	"github.com/restic/restic/pkg/restic"
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
 
-	rtest "github.com/restic/restic/internal/test"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 func TestCache(t *testing.T) {

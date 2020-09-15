@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/restic"
 )
 
 func formatBytes(c uint64) string {

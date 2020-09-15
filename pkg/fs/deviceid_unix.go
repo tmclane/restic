@@ -6,7 +6,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/restic/restic/internal/errors"
+	"github.com/restic/restic/pkg/errors"
 )
 
 // DeviceID extracts the device ID from an os.FileInfo object by casting it

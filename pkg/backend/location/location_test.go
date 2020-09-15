@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/restic/restic/internal/backend/b2"
-	"github.com/restic/restic/internal/backend/local"
-	"github.com/restic/restic/internal/backend/rest"
-	"github.com/restic/restic/internal/backend/s3"
-	"github.com/restic/restic/internal/backend/sftp"
-	"github.com/restic/restic/internal/backend/swift"
+	"github.com/restic/restic/pkg/backend/b2"
+	"github.com/restic/restic/pkg/backend/local"
+	"github.com/restic/restic/pkg/backend/rest"
+	"github.com/restic/restic/pkg/backend/s3"
+	"github.com/restic/restic/pkg/backend/sftp"
+	"github.com/restic/restic/pkg/backend/swift"
 )
 
 func parseURL(s string) *url.URL {

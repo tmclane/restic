@@ -7,11 +7,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/restic/restic/internal/backend"
-	"github.com/restic/restic/internal/backend/mem"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	rtest "github.com/restic/restic/internal/test"
+	"github.com/restic/restic/pkg/backend"
+	"github.com/restic/restic/pkg/backend/mem"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
+	rtest "github.com/restic/restic/pkg/test"
 )
 
 const KiB = 1 << 10

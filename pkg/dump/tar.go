@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/restic"
-	"github.com/restic/restic/internal/walker"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/restic"
+	"github.com/restic/restic/pkg/walker"
 )
 
 // WriteTar will write the contents of the given tree, encoded as a tar to the given destination.

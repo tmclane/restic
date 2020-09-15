@@ -3,8 +3,8 @@ package archiver
 import (
 	"context"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/restic"
 	tomb "gopkg.in/tomb.v2"
 )
 

@@ -7,10 +7,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/restic/restic/internal/debug"
-	"github.com/restic/restic/internal/errors"
-	"github.com/restic/restic/internal/pack"
-	"github.com/restic/restic/internal/restic"
+	"github.com/restic/restic/pkg/debug"
+	"github.com/restic/restic/pkg/errors"
+	"github.com/restic/restic/pkg/pack"
+	"github.com/restic/restic/pkg/restic"
 	"golang.org/x/sync/errgroup"
 )
 
